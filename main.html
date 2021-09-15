@@ -62,7 +62,7 @@ Youtube貼り付けここまで -->
         <!-- STAGE1解答入力セクション　ここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力（漢字に変更して解答してください）</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力（答えは漢字になります）</h2>
             <!------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
               v-bind:correct="correctAnswer['stage1']['q1']" は正解の解答を指します。
@@ -90,8 +90,7 @@ Youtube貼り付けここまで -->
               <div class="clear-message__title">STAGE：１  クリア！</div>
               <div class="clear-message__content">教室の鍵と古い新聞紙を手に入れた！<br>
                 新聞紙には男に関する情報と昔この廃校で起きた事件の内容、次の謎の場所が書かれていた。<br>
-                新聞紙に書いてある場所に友達へ行くよう言った。</div>
-              　　　　
+                新聞紙に書いてある次の場所に向かおう！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -204,10 +203,10 @@ Youtube貼り付けここまで -->
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>ボスを倒そう！</h2>
             <p class="text-center">出口の目の前でボスに最終問題と言われ、<br>
-              道を塞がれたと友達が焦っている。<br>
-              最終問題を解き友達を救出しよう！</p>
+              道を塞がれてしまった。<br>
+              最終問題を解き脱出しよう！</p>
             <figure class="image__container">
-              <img src="assets/images/monndai3.png" alt="">
+              <img src="assets/images/monndai-3.png" alt="">
             </figure>
           </div>
         </section>
